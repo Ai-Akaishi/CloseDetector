@@ -79,7 +79,7 @@ The type of open container can be easily described with predicate.
 - open:shulker_box/red_shulker_box
 - open:shulker_box/black_shulker_box
 
-```json
+```nim
 樽を開いている場合にメッセージを出す  
 Show a message when a barrel is open.  
   
