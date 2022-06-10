@@ -1,0 +1,26 @@
+{
+    "criteria": {
+        "active": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type_specific": {
+                                "type": "player",
+                                "advancements": {
+                                    "close_detector:open": true
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "close_detector:close/"
+    }
+}

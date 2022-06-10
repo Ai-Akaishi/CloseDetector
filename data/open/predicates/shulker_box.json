@@ -1,0 +1,73 @@
+{
+	"condition": "alternative",
+	"terms": [
+		{
+			"condition": "reference",
+			"name": "open:shulker_box/normal"
+		},
+		{
+			"condition": "reference",
+			"name": "open:shulker_box/white"
+		},
+		{
+			"condition": "reference",
+			"name": "open:shulker_box/orange"
+		},
+		{
+			"condition": "reference",
+			"name": "open:shulker_box/magenta"
+		},
+		{
+			"condition": "reference",
+			"name": "open:shulker_box/light_blue"
+		},
+		{
+			"condition": "reference",
+			"name": "open:shulker_box/yellow"
+		},
+		{
+			"condition": "reference",
+			"name": "open:shulker_box/lime"
+		},
+		{
+			"condition": "reference",
+			"name": "open:shulker_box/pink"
+		},
+		{
+			"condition": "reference",
+			"name": "open:shulker_box/gray"
+		},
+		{
+			"condition": "reference",
+			"name": "open:shulker_box/light_gray"
+		},
+		{
+			"condition": "reference",
+			"name": "open:shulker_box/cyan"
+		},
+		{
+			"condition": "reference",
+			"name": "open:shulker_box/purple"
+		},
+		{
+			"condition": "reference",
+			"name": "open:shulker_box/blue"
+		},
+		{
+			"condition": "reference",
+			"name": "open:shulker_box/brown"
+		},
+		{
+			"condition": "reference",
+			"name": "open:shulker_box/green"
+		},
+		{
+			"condition": "reference",
+			"name": "open:shulker_box/red"
+		},
+		{
+			"condition": "reference",
+			"name": "open:shulker_box/black"
+		}
+	]
+}

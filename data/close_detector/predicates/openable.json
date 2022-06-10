@@ -1,0 +1,27 @@
+{
+	"condition": "alternative",
+	"terms": [
+		{
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate": {
+				"flags": {
+					"is_sneaking": false
+				}
+			}
+		},
+		{
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate": {
+				"flags": {
+					"is_sneaking": true
+				},
+				"equipment": {
+					"mainhand": {},
+					"offhand": {}
+				}
+			}
+		}
+	]
+}
