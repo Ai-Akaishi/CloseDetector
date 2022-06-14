@@ -8,7 +8,8 @@ Detect Opening/Closing Containers
 
 # 一緒に入れてね / Dependencies
 
-Oh! My Dat!(https://github.com/Ai-Akaishi/OhMyDat)
+Oh! My Dat!(https://github.com/Ai-Akaishi/OhMyDat)  
+Player Item Tuner(https://github.com/Ai-Akaishi/PlayerItemTuner)
 
 ## 使い方 / How To Use
 
