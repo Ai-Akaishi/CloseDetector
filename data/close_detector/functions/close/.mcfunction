@@ -7,8 +7,6 @@
 ### インベントリ変化チェック
 function close_detector:check_inventory
 
-# tellraw @s {"nbt":"closed","storage":"close_detector:"}
-
 ### 閉じていたら閉じ処理実行
 execute if data storage close_detector: {closed:true} run function close_detector:close/tear_down
 

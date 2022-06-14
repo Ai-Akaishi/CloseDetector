@@ -5,7 +5,7 @@
 ### This software is released under the MIT License, see LICENSE.
 
 # 個別ストレージ呼び出し
-function oh_my_dat:please
+function #oh_my_dat:please
 
 ### 変化がないか、占有数に差がないかをチェック
 ## last

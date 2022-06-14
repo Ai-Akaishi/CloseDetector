@@ -4,4 +4,8 @@
 
 #define storage close_detector:
 #define storage oh_my_dat:
-#define function oh_my_dat:please
+#define tag/function #oh_my_dat:please
+
+#define storage player_item_tuner:
+#define storage player_item_tuner:
+

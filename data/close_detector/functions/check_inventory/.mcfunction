@@ -5,7 +5,7 @@
 ### This software is released under the MIT License, see LICENSE.
 
 # 個別ストレージ呼び出し
-function oh_my_dat:please
+function #oh_my_dat:please
 
 data modify storage close_detector: inventory.last set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].CloseDetector.Inventory
 data modify storage close_detector: inventory.now set from entity @s Inventory
