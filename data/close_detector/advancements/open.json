@@ -611,6 +611,30 @@
                     }
                 }
             }
+        },
+        "chest_boat": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "chest_boat"
+                }
+            }
+        },
+        "chest_minecart": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "chest_minecart"
+                }
+            }
+        },
+        "hopper_minecart": {
+            "trigger": "minecraft:player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "hopper_minecart"
+                }
+            }
         }
     },
     "requirements": [
@@ -648,7 +672,10 @@
             "brown_shulker_box",
             "green_shulker_box",
             "red_shulker_box",
-            "black_shulker_box"
+            "black_shulker_box",
+            "chest_boat",
+            "chest_minecart",
+            "hopper_minecart"
         ]
     ],
     "rewards": {

@@ -1,15 +1,16 @@
 # Close Detector
-Detect Opening/Closing Containers  
-コンテナ系ブロックの開閉を検知します
 
-# 動作確認済みバージョン / Verified minecraft versions
+Detect Opening/Closing Containers  
+コンテナの開閉を検知します
+
+## 動作確認済みバージョン / Verified minecraft versions
 
 - 1.19
 
-# 一緒に入れてね / Dependencies
+## 一緒に入れてね / Dependencies
 
-Oh! My Dat!(https://github.com/Ai-Akaishi/OhMyDat)  
-Player Item Tuner(https://github.com/Ai-Akaishi/PlayerItemTuner)
+Oh! My Dat!(<https://github.com/Ai-Akaishi/OhMyDat>)  
+Player Item Tuner(<https://github.com/Ai-Akaishi/PlayerItemTuner>)
 
 ## 使い方 / How To Use
 
@@ -79,6 +80,9 @@ The type of open container can be easily described with predicate.
 - open:shulker_box/green_shulker_box
 - open:shulker_box/red_shulker_box
 - open:shulker_box/black_shulker_box
+- open:chest_boat
+- open:chest_minecart
+- open:hopper_minecart
 
 ```nim
 樽を開いている場合にメッセージを出す  
@@ -87,10 +91,10 @@ Show a message when a barrel is open.
 execute if predicate open:barrel run say I'm looking through the barrels now.
 ```
 
-# 連絡はこちら/Contact
+## 連絡はこちら/Contact
 
-https://twitter.com/AiAkaishi
+<https://twitter.com/AiAkaishi>
 
-# ライセンス/LICENSE
+## ライセンス/LICENSE
 
 These codes are released under the MIT License, see LICENSE.

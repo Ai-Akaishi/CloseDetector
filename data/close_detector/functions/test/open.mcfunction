@@ -26,3 +26,7 @@ execute if predicate open:enchanting_table run say エンチャント台ひら�
 execute if predicate open:anvil run say 金床ひらいたよ！！
 
 execute if predicate open:shulker_box run say シュルカーボックスひらいたよ！！
+
+execute if predicate open:chest_boat run say チェスト付きボートひらいたよ！！
+execute if predicate open:chest_minecart run say チェスト付きトロッコひらいたよ！！
+execute if predicate open:hopper_minecart run say ホッパー付きトロッコひらいたよ！！
