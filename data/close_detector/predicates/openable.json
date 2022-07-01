@@ -18,8 +18,16 @@
 					"is_sneaking": true
 				},
 				"equipment": {
-					"mainhand": {},
-					"offhand": {}
+					"mainhand": {
+						"items": [
+							"minecraft:air"
+						]
+					},
+					"offhand": {
+						"items": [
+							"minecraft:air"
+						]
+					}
 				}
 			}
 		}
