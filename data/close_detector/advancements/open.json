@@ -252,6 +252,24 @@
                 }
             }
         },
+        "stonecutter": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "reference",
+                        "name": "close_detector:openable"
+                    }
+                ],
+                "location": {
+                    "block": {
+                        "blocks": [
+                            "minecraft:stonecutter"
+                        ]
+                    }
+                }
+            }
+        },
         "anvil": {
             "trigger": "minecraft:item_used_on_block",
             "conditions": {
@@ -653,6 +671,7 @@
             "smoker",
             "grindstone",
             "enchanting_table",
+            "stonecutter",
             "anvil",
             "chipped_anvil",
             "damaged_anvil",
