@@ -6,6 +6,7 @@ Detect Opening/Closing Containers
 ## 動作確認済みバージョン / Verified minecraft versions
 
 - 1.19
+- 1.19.2
 
 ## 一緒に入れてね / Dependencies
 
@@ -37,6 +38,17 @@ close_detector/tags/functions/on_closed.json
         "your_datapack:close"  
     ]  
 }
+  
+  
+ロックされていた時に呼び出したいファンクションの登録  
+Registration of functions to be called when locked  
+  
+close_detector/tags/functions/on_locked.json  
+{  
+    "values": [  
+        "your_datapack:lock"  
+    ]  
+}
 ```
 
 ### 開いているコンテナの種類の検知 / Detection of open container types
@@ -58,6 +70,7 @@ The type of open container can be easily described with predicate.
 - open:smoker
 - open:grindstone
 - open:enchanting_table
+- open:stonecutter
 - open:anvil(any type of anvils)
 - open:anvil/normal
 - open:anvil/chipped

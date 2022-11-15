@@ -1,6 +1,6 @@
-#> close_detector:close/tear_down
-# 検知用アイテムを消す
-# Remove the detective item in the inventory.
+#> close_detector:open/on_locked
+# Lock時検知用アイテム削除
+# Remove the detective item in the inventory if the container is locked.
 ### Copyright © 2020 赤石愛
 ### This software is released under the MIT License, see LICENSE.
 
@@ -15,8 +15,8 @@ execute unless data storage close_detector: new_inventory[{Slot:103b}].tag{Close
 ### 仮アイテムでなければ、頭のアイテムを更新
 execute unless data storage close_detector: new_inventory[{Slot:103b}].tag{CloseDetectorItem:true} run function #player_item_tuner:modify/inventory
 
-### 閉じた時の処理を呼び出し
-function #close_detector:on_closed
+### ロックされていた時の処理を呼び出し
+function #close_detector:on_locked
 
 # openトリガー有効化
 advancement revoke @s only close_detector:open
