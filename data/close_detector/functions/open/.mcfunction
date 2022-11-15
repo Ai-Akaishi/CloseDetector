@@ -13,8 +13,8 @@ execute unless data storage close_detector: new_inventory[{Slot:103b}] run item 
 data modify storage player_item_tuner: condition set value {if:{Slot:103b}}
 data modify storage player_item_tuner: result set value {merge:{tag:{CloseDetector:true}}}
 execute store result storage player_item_tuner: result.merge.tag.CloseDetector byte 1 unless data storage close_detector: new_inventory[{Slot:103b}].tag{CloseDetector:true}
-### Lock時は先にclosed処理が走るので区別できるようにしておく(ここでclosed処理が走るとfalseになるはず)
-data modify storage close_detector: closed set value true
+### Lock時は先にclosed処理が走るので区別できるようにしておく
+data modify storage close_detector: open set value true
 function #player_item_tuner:merge/inventory
 
 # 個別ストレージ呼び出し
@@ -26,6 +26,9 @@ data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].CloseDetector.I
 data modify storage close_detector: skip set value 0
 
 ### 開いたとき処理呼び出し
-execute if data storage close_detector: {closed:true} run function #close_detector:on_opened
-### Lock時は先にclosed処理が走る。closedが変化していたら取り消す。
-execute if data storage close_detector: {closed:false} run function close_detector:open/on_locked
+execute if data storage close_detector: open run function #close_detector:on_opened
+### Lock時は先にclosed処理が走る。openが変化していたら取り消す。
+execute unless data storage close_detector: open run function close_detector:open/on_locked
+
+# ロック検知用
+data remove storage close_detector: open
