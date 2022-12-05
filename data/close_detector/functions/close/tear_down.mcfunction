@@ -4,6 +4,9 @@
 ### Copyright © 2020 赤石愛
 ### This software is released under the MIT License, see LICENSE.
 
+### パフォーマンス向上のため先にインベントリを保存しておく
+data modify storage close_detector: new_inventory set from entity @s Inventory
+
 ### 仮アイテムなら削除
 execute if data storage close_detector: new_inventory[{Slot:103b}].tag{CloseDetectorItem:true} run item replace entity @s armor.head with minecraft:air
 
@@ -14,9 +17,3 @@ execute unless data storage close_detector: new_inventory[{Slot:103b}].tag{Close
 
 ### 仮アイテムでなければ、頭のアイテムを更新
 execute unless data storage close_detector: new_inventory[{Slot:103b}].tag{CloseDetectorItem:true} run function #player_item_tuner:modify/inventory
-
-### 閉じた時の処理を呼び出し
-function #close_detector:on_closed
-
-# openトリガー有効化
-advancement revoke @s only close_detector:open

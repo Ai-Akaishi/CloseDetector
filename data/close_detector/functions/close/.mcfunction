@@ -8,7 +8,7 @@
 function close_detector:check_inventory
 
 ### 閉じていたら閉じ処理実行
-execute if data storage close_detector: {closed:true} unless data storage close_detector: open run function close_detector:close/tear_down
+execute if data storage close_detector: {closed:true} unless data storage close_detector: open run function close_detector:close/on_closed
 
 # トリガー再有効化
 advancement revoke @s only close_detector:close

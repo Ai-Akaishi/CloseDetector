@@ -23,7 +23,6 @@ execute store result storage close_detector: skip int 0.999999999 run data get s
 ### まだスキップ回数が残っていたら閉じたことを無視します。
 execute unless data storage close_detector: {skip:0} run data modify storage close_detector: closed set value false
 
-tag @s remove CloseDetectorIgnoreNext
 ### 変化があったら連続して無視しないといけない可能性があるので確認
 execute if data storage close_detector: {changed:true,skip:0} run function close_detector:check_inventory/
 
