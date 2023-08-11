@@ -138,6 +138,29 @@
                 ]
             }
         },
+        "smithing_table": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "reference",
+                        "name": "close_detector:openable"
+                    }
+                ],
+                "location": [
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:smithing_table"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
         "hopper": {
             "trigger": "minecraft:item_used_on_block",
             "conditions": {
@@ -338,6 +361,75 @@
                             "block": {
                                 "blocks": [
                                     "minecraft:stonecutter"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "brewing_stand": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "reference",
+                        "name": "close_detector:openable"
+                    }
+                ],
+                "location": [
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:brewing_stand"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "loom": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "reference",
+                        "name": "close_detector:openable"
+                    }
+                ],
+                "location": [
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:loom"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "beacon": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "reference",
+                        "name": "close_detector:openable"
+                    }
+                ],
+                "location": [
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:beacon"
                                 ]
                             }
                         }
@@ -867,6 +959,10 @@
             "green_shulker_box",
             "red_shulker_box",
             "black_shulker_box",
+            "smithing_table",
+            "loom",
+            "brewing_stand",
+            "beacon",
             "chest_boat",
             "chest_minecart",
             "hopper_minecart"

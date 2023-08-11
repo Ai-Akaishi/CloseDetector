@@ -11,6 +11,7 @@ execute if predicate open:barrel run say 樽はロックされてたよ！！
 
 execute if predicate open:crafting_table run say 作業台はロックされてたよ！！
 execute if predicate open:cartography_table run say 製図台はロックされてたよ！！
+execute if predicate open:smithing_table run say 鍛冶台はロックされてたよ！！
 
 execute if predicate open:hopper run say ホッパーはロックされてたよ！！
 execute if predicate open:dropper run say ドロッパーはロックされてたよ！！
@@ -26,6 +27,11 @@ execute if predicate open:enchanting_table run say エンチャント台はロ�
 execute if predicate open:anvil run say 金床はロックされてたよ！！
 
 execute if predicate open:stonecutter run say 石切台はロックされてたよ！！
+execute if predicate open:brewing_stand run say 醸造台はロックされてたよ！！
+
+execute if predicate open:loom run say 機織り機はロックされてたよ！！
+
+execute if predicate open:beacon run say ビーコンはロックされてたよ！！
 
 execute if predicate open:shulker_box run say シュルカーボックスはロックされてたよ！！
 

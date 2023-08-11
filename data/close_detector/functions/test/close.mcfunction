@@ -11,6 +11,7 @@ execute if predicate open:barrel run say 樽とじたよ！！
 
 execute if predicate open:crafting_table run say 作業台とじたよ！！
 execute if predicate open:cartography_table run say 製図台とじたよ！！
+execute if predicate open:smithing_table run say 鍛冶台とじたよ！！
 
 execute if predicate open:hopper run say ホッパーとじたよ！！
 execute if predicate open:dropper run say ドロッパーとじたよ！！
@@ -26,6 +27,11 @@ execute if predicate open:enchanting_table run say エンチャント台とじ�
 execute if predicate open:anvil run say 金床とじたよ！！
 
 execute if predicate open:stonecutter run say 石切台とじたよ！！
+execute if predicate open:brewing_stand run say 醸造台とじたよ！！
+
+execute if predicate open:loom run say 機織り機とじたよ！！
+
+execute if predicate open:beacon run say ビーコンとじたよ！！
 
 execute if predicate open:shulker_box run say シュルカーボックスとじたよ！！
 
