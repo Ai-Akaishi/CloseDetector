@@ -9,13 +9,18 @@
                         "name": "close_detector:openable"
                     }
                 ],
-                "location": {
-                    "block": {
-                        "blocks": [
-                            "minecraft:chest"
-                        ]
+                "location": [
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:chest"
+                                ]
+                            }
+                        }
                     }
-                }
+                ]
             }
         },
         "trapped_chest": {
@@ -27,13 +32,18 @@
                         "name": "close_detector:openable"
                     }
                 ],
-                "location": {
-                    "block": {
-                        "blocks": [
-                            "minecraft:trapped_chest"
-                        ]
+                "location": [
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:trapped_chest"
+                                ]
+                            }
+                        }
                     }
-                }
+                ]
             }
         },
         "ender_chest": {
@@ -45,13 +55,18 @@
                         "name": "close_detector:openable"
                     }
                 ],
-                "location": {
-                    "block": {
-                        "blocks": [
-                            "minecraft:ender_chest"
-                        ]
+                "location": [
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:ender_chest"
+                                ]
+                            }
+                        }
                     }
-                }
+                ]
             }
         },
         "barrel": {
@@ -63,13 +78,18 @@
                         "name": "close_detector:openable"
                     }
                 ],
-                "location": {
-                    "block": {
-                        "blocks": [
-                            "minecraft:barrel"
-                        ]
+                "location": [
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:barrel"
+                                ]
+                            }
+                        }
                     }
-                }
+                ]
             }
         },
         "crafting_table": {
@@ -81,13 +101,18 @@
                         "name": "close_detector:openable"
                     }
                 ],
-                "location": {
-                    "block": {
-                        "blocks": [
-                            "minecraft:crafting_table"
-                        ]
+                "location": [
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:crafting_table"
+                                ]
+                            }
+                        }
                     }
-                }
+                ]
             }
         },
         "cartography_table": {
@@ -99,13 +124,18 @@
                         "name": "close_detector:openable"
                     }
                 ],
-                "location": {
-                    "block": {
-                        "blocks": [
-                            "minecraft:cartography_table"
-                        ]
+                "location": [
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:cartography_table"
+                                ]
+                            }
+                        }
                     }
-                }
+                ]
             }
         },
         "hopper": {
@@ -117,13 +147,18 @@
                         "name": "close_detector:openable"
                     }
                 ],
-                "location": {
-                    "block": {
-                        "blocks": [
-                            "minecraft:hopper"
-                        ]
+                "location": [
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:hopper"
+                                ]
+                            }
+                        }
                     }
-                }
+                ]
             }
         },
         "dropper": {
@@ -135,13 +170,18 @@
                         "name": "close_detector:openable"
                     }
                 ],
-                "location": {
-                    "block": {
-                        "blocks": [
-                            "minecraft:dropper"
-                        ]
+                "location": [
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:dropper"
+                                ]
+                            }
+                        }
                     }
-                }
+                ]
             }
         },
         "dispenser": {
@@ -153,13 +193,18 @@
                         "name": "close_detector:openable"
                     }
                 ],
-                "location": {
-                    "block": {
-                        "blocks": [
-                            "minecraft:dispenser"
-                        ]
+                "location": [
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:dispenser"
+                                ]
+                            }
+                        }
                     }
-                }
+                ]
             }
         },
         "furnace": {
@@ -171,13 +216,18 @@
                         "name": "close_detector:openable"
                     }
                 ],
-                "location": {
-                    "block": {
-                        "blocks": [
-                            "minecraft:furnace"
-                        ]
+                "location": [
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:furnace"
+                                ]
+                            }
+                        }
                     }
-                }
+                ]
             }
         },
         "blast_furnace": {
@@ -189,13 +239,18 @@
                         "name": "close_detector:openable"
                     }
                 ],
-                "location": {
-                    "block": {
-                        "blocks": [
-                            "minecraft:blast_furnace"
-                        ]
+                "location": [
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:blast_furnace"
+                                ]
+                            }
+                        }
                     }
-                }
+                ]
             }
         },
         "smoker": {
@@ -207,13 +262,18 @@
                         "name": "close_detector:openable"
                     }
                 ],
-                "location": {
-                    "block": {
-                        "blocks": [
-                            "minecraft:smoker"
-                        ]
+                "location": [
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:smoker"
+                                ]
+                            }
+                        }
                     }
-                }
+                ]
             }
         },
         "grindstone": {
@@ -225,13 +285,18 @@
                         "name": "close_detector:openable"
                     }
                 ],
-                "location": {
-                    "block": {
-                        "blocks": [
-                            "minecraft:grindstone"
-                        ]
+                "location": [
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:grindstone"
+                                ]
+                            }
+                        }
                     }
-                }
+                ]
             }
         },
         "enchanting_table": {
@@ -243,13 +308,18 @@
                         "name": "close_detector:openable"
                     }
                 ],
-                "location": {
-                    "block": {
-                        "blocks": [
-                            "minecraft:enchanting_table"
-                        ]
+                "location": [
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:enchanting_table"
+                                ]
+                            }
+                        }
                     }
-                }
+                ]
             }
         },
         "stonecutter": {
@@ -261,13 +331,18 @@
                         "name": "close_detector:openable"
                     }
                 ],
-                "location": {
-                    "block": {
-                        "blocks": [
-                            "minecraft:stonecutter"
-                        ]
+                "location": [
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:stonecutter"
+                                ]
+                            }
+                        }
                     }
-                }
+                ]
             }
         },
         "anvil": {
@@ -279,13 +354,18 @@
                         "name": "close_detector:openable"
                     }
                 ],
-                "location": {
-                    "block": {
-                        "blocks": [
-                            "minecraft:anvil"
-                        ]
+                "location": [
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:anvil"
+                                ]
+                            }
+                        }
                     }
-                }
+                ]
             }
         },
         "chipped_anvil": {
@@ -297,13 +377,18 @@
                         "name": "close_detector:openable"
                     }
                 ],
-                "location": {
-                    "block": {
-                        "blocks": [
-                            "minecraft:chipped_anvil"
-                        ]
+                "location": [
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:chipped_anvil"
+                                ]
+                            }
+                        }
                     }
-                }
+                ]
             }
         },
         "damaged_anvil": {
@@ -315,13 +400,18 @@
                         "name": "close_detector:openable"
                     }
                 ],
-                "location": {
-                    "block": {
-                        "blocks": [
-                            "minecraft:damaged_anvil"
-                        ]
+                "location": [
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:damaged_anvil"
+                                ]
+                            }
+                        }
                     }
-                }
+                ]
             }
         },
         "shulker_box": {
@@ -333,13 +423,18 @@
                         "name": "close_detector:openable"
                     }
                 ],
-                "location": {
-                    "block": {
-                        "blocks": [
-                            "minecraft:shulker_box"
-                        ]
+                "location": [
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:shulker_box"
+                                ]
+                            }
+                        }
                     }
-                }
+                ]
             }
         },
         "white_shulker_box": {
@@ -351,13 +446,18 @@
                         "name": "close_detector:openable"
                     }
                 ],
-                "location": {
-                    "block": {
-                        "blocks": [
-                            "minecraft:white_shulker_box"
-                        ]
+                "location": [
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:white_shulker_box"
+                                ]
+                            }
+                        }
                     }
-                }
+                ]
             }
         },
         "orange_shulker_box": {
@@ -369,13 +469,18 @@
                         "name": "close_detector:openable"
                     }
                 ],
-                "location": {
-                    "block": {
-                        "blocks": [
-                            "minecraft:orange_shulker_box"
-                        ]
+                "location": [
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:orange_shulker_box"
+                                ]
+                            }
+                        }
                     }
-                }
+                ]
             }
         },
         "magenta_shulker_box": {
@@ -387,13 +492,18 @@
                         "name": "close_detector:openable"
                     }
                 ],
-                "location": {
-                    "block": {
-                        "blocks": [
-                            "minecraft:magenta_shulker_box"
-                        ]
+                "location": [
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:magenta_shulker_box"
+                                ]
+                            }
+                        }
                     }
-                }
+                ]
             }
         },
         "light_blue_shulker_box": {
@@ -405,13 +515,18 @@
                         "name": "close_detector:openable"
                     }
                 ],
-                "location": {
-                    "block": {
-                        "blocks": [
-                            "minecraft:light_blue_shulker_box"
-                        ]
+                "location": [
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:light_blue_shulker_box"
+                                ]
+                            }
+                        }
                     }
-                }
+                ]
             }
         },
         "yellow_shulker_box": {
@@ -423,13 +538,18 @@
                         "name": "close_detector:openable"
                     }
                 ],
-                "location": {
-                    "block": {
-                        "blocks": [
-                            "minecraft:yellow_shulker_box"
-                        ]
+                "location": [
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:yellow_shulker_box"
+                                ]
+                            }
+                        }
                     }
-                }
+                ]
             }
         },
         "lime_shulker_box": {
@@ -441,13 +561,18 @@
                         "name": "close_detector:openable"
                     }
                 ],
-                "location": {
-                    "block": {
-                        "blocks": [
-                            "minecraft:lime_shulker_box"
-                        ]
+                "location": [
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:lime_shulker_box"
+                                ]
+                            }
+                        }
                     }
-                }
+                ]
             }
         },
         "pink_shulker_box": {
@@ -459,13 +584,18 @@
                         "name": "close_detector:openable"
                     }
                 ],
-                "location": {
-                    "block": {
-                        "blocks": [
-                            "minecraft:pink_shulker_box"
-                        ]
+                "location": [
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:pink_shulker_box"
+                                ]
+                            }
+                        }
                     }
-                }
+                ]
             }
         },
         "gray_shulker_box": {
@@ -477,13 +607,18 @@
                         "name": "close_detector:openable"
                     }
                 ],
-                "location": {
-                    "block": {
-                        "blocks": [
-                            "minecraft:gray_shulker_box"
-                        ]
+                "location": [
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:gray_shulker_box"
+                                ]
+                            }
+                        }
                     }
-                }
+                ]
             }
         },
         "light_gray_shulker_box": {
@@ -495,13 +630,18 @@
                         "name": "close_detector:openable"
                     }
                 ],
-                "location": {
-                    "block": {
-                        "blocks": [
-                            "minecraft:light_gray_shulker_box"
-                        ]
+                "location": [
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:light_gray_shulker_box"
+                                ]
+                            }
+                        }
                     }
-                }
+                ]
             }
         },
         "cyan_shulker_box": {
@@ -513,13 +653,18 @@
                         "name": "close_detector:openable"
                     }
                 ],
-                "location": {
-                    "block": {
-                        "blocks": [
-                            "minecraft:cyan_shulker_box"
-                        ]
+                "location": [
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:cyan_shulker_box"
+                                ]
+                            }
+                        }
                     }
-                }
+                ]
             }
         },
         "purple_shulker_box": {
@@ -531,13 +676,18 @@
                         "name": "close_detector:openable"
                     }
                 ],
-                "location": {
-                    "block": {
-                        "blocks": [
-                            "minecraft:purple_shulker_box"
-                        ]
+                "location": [
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:purple_shulker_box"
+                                ]
+                            }
+                        }
                     }
-                }
+                ]
             }
         },
         "blue_shulker_box": {
@@ -549,13 +699,18 @@
                         "name": "close_detector:openable"
                     }
                 ],
-                "location": {
-                    "block": {
-                        "blocks": [
-                            "minecraft:blue_shulker_box"
-                        ]
+                "location": [
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:blue_shulker_box"
+                                ]
+                            }
+                        }
                     }
-                }
+                ]
             }
         },
         "brown_shulker_box": {
@@ -567,13 +722,18 @@
                         "name": "close_detector:openable"
                     }
                 ],
-                "location": {
-                    "block": {
-                        "blocks": [
-                            "minecraft:brown_shulker_box"
-                        ]
+                "location": [
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:brown_shulker_box"
+                                ]
+                            }
+                        }
                     }
-                }
+                ]
             }
         },
         "green_shulker_box": {
@@ -585,13 +745,18 @@
                         "name": "close_detector:openable"
                     }
                 ],
-                "location": {
-                    "block": {
-                        "blocks": [
-                            "minecraft:green_shulker_box"
-                        ]
+                "location": [
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:green_shulker_box"
+                                ]
+                            }
+                        }
                     }
-                }
+                ]
             }
         },
         "red_shulker_box": {
@@ -603,13 +768,18 @@
                         "name": "close_detector:openable"
                     }
                 ],
-                "location": {
-                    "block": {
-                        "blocks": [
-                            "minecraft:red_shulker_box"
-                        ]
+                "location": [
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:red_shulker_box"
+                                ]
+                            }
+                        }
                     }
-                }
+                ]
             }
         },
         "black_shulker_box": {
@@ -621,13 +791,18 @@
                         "name": "close_detector:openable"
                     }
                 ],
-                "location": {
-                    "block": {
-                        "blocks": [
-                            "minecraft:black_shulker_box"
-                        ]
+                "location": [
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "minecraft:black_shulker_box"
+                                ]
+                            }
+                        }
                     }
-                }
+                ]
             }
         },
         "chest_boat": {
