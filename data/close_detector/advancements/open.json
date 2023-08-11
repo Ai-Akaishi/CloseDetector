@@ -1,7 +1,7 @@
 {
     "criteria": {
         "chest": {
-            "trigger": "minecraft:item_used_on_block",
+            "trigger": "item_used_on_block",
             "conditions": {
                 "player": [
                     {
@@ -15,7 +15,7 @@
                         "predicate": {
                             "block": {
                                 "blocks": [
-                                    "minecraft:chest"
+                                    "chest"
                                 ]
                             }
                         }
@@ -24,7 +24,7 @@
             }
         },
         "trapped_chest": {
-            "trigger": "minecraft:item_used_on_block",
+            "trigger": "item_used_on_block",
             "conditions": {
                 "player": [
                     {
@@ -38,7 +38,7 @@
                         "predicate": {
                             "block": {
                                 "blocks": [
-                                    "minecraft:trapped_chest"
+                                    "trapped_chest"
                                 ]
                             }
                         }
@@ -47,7 +47,7 @@
             }
         },
         "ender_chest": {
-            "trigger": "minecraft:item_used_on_block",
+            "trigger": "item_used_on_block",
             "conditions": {
                 "player": [
                     {
@@ -61,7 +61,7 @@
                         "predicate": {
                             "block": {
                                 "blocks": [
-                                    "minecraft:ender_chest"
+                                    "ender_chest"
                                 ]
                             }
                         }
@@ -70,7 +70,7 @@
             }
         },
         "barrel": {
-            "trigger": "minecraft:item_used_on_block",
+            "trigger": "item_used_on_block",
             "conditions": {
                 "player": [
                     {
@@ -84,7 +84,7 @@
                         "predicate": {
                             "block": {
                                 "blocks": [
-                                    "minecraft:barrel"
+                                    "barrel"
                                 ]
                             }
                         }
@@ -93,7 +93,7 @@
             }
         },
         "crafting_table": {
-            "trigger": "minecraft:item_used_on_block",
+            "trigger": "item_used_on_block",
             "conditions": {
                 "player": [
                     {
@@ -107,7 +107,7 @@
                         "predicate": {
                             "block": {
                                 "blocks": [
-                                    "minecraft:crafting_table"
+                                    "crafting_table"
                                 ]
                             }
                         }
@@ -116,7 +116,7 @@
             }
         },
         "cartography_table": {
-            "trigger": "minecraft:item_used_on_block",
+            "trigger": "item_used_on_block",
             "conditions": {
                 "player": [
                     {
@@ -130,7 +130,7 @@
                         "predicate": {
                             "block": {
                                 "blocks": [
-                                    "minecraft:cartography_table"
+                                    "cartography_table"
                                 ]
                             }
                         }
@@ -139,7 +139,7 @@
             }
         },
         "smithing_table": {
-            "trigger": "minecraft:item_used_on_block",
+            "trigger": "item_used_on_block",
             "conditions": {
                 "player": [
                     {
@@ -153,7 +153,7 @@
                         "predicate": {
                             "block": {
                                 "blocks": [
-                                    "minecraft:smithing_table"
+                                    "smithing_table"
                                 ]
                             }
                         }
@@ -162,7 +162,7 @@
             }
         },
         "hopper": {
-            "trigger": "minecraft:item_used_on_block",
+            "trigger": "item_used_on_block",
             "conditions": {
                 "player": [
                     {
@@ -176,7 +176,7 @@
                         "predicate": {
                             "block": {
                                 "blocks": [
-                                    "minecraft:hopper"
+                                    "hopper"
                                 ]
                             }
                         }
@@ -185,7 +185,7 @@
             }
         },
         "dropper": {
-            "trigger": "minecraft:item_used_on_block",
+            "trigger": "item_used_on_block",
             "conditions": {
                 "player": [
                     {
@@ -199,7 +199,7 @@
                         "predicate": {
                             "block": {
                                 "blocks": [
-                                    "minecraft:dropper"
+                                    "dropper"
                                 ]
                             }
                         }
@@ -208,7 +208,7 @@
             }
         },
         "dispenser": {
-            "trigger": "minecraft:item_used_on_block",
+            "trigger": "item_used_on_block",
             "conditions": {
                 "player": [
                     {
@@ -222,7 +222,7 @@
                         "predicate": {
                             "block": {
                                 "blocks": [
-                                    "minecraft:dispenser"
+                                    "dispenser"
                                 ]
                             }
                         }
@@ -231,7 +231,7 @@
             }
         },
         "furnace": {
-            "trigger": "minecraft:item_used_on_block",
+            "trigger": "item_used_on_block",
             "conditions": {
                 "player": [
                     {
@@ -245,7 +245,7 @@
                         "predicate": {
                             "block": {
                                 "blocks": [
-                                    "minecraft:furnace"
+                                    "furnace"
                                 ]
                             }
                         }
@@ -254,7 +254,7 @@
             }
         },
         "blast_furnace": {
-            "trigger": "minecraft:item_used_on_block",
+            "trigger": "item_used_on_block",
             "conditions": {
                 "player": [
                     {
@@ -268,7 +268,7 @@
                         "predicate": {
                             "block": {
                                 "blocks": [
-                                    "minecraft:blast_furnace"
+                                    "blast_furnace"
                                 ]
                             }
                         }
@@ -277,7 +277,7 @@
             }
         },
         "smoker": {
-            "trigger": "minecraft:item_used_on_block",
+            "trigger": "item_used_on_block",
             "conditions": {
                 "player": [
                     {
@@ -291,7 +291,7 @@
                         "predicate": {
                             "block": {
                                 "blocks": [
-                                    "minecraft:smoker"
+                                    "smoker"
                                 ]
                             }
                         }
@@ -300,7 +300,7 @@
             }
         },
         "grindstone": {
-            "trigger": "minecraft:item_used_on_block",
+            "trigger": "item_used_on_block",
             "conditions": {
                 "player": [
                     {
@@ -314,7 +314,7 @@
                         "predicate": {
                             "block": {
                                 "blocks": [
-                                    "minecraft:grindstone"
+                                    "grindstone"
                                 ]
                             }
                         }
@@ -323,7 +323,7 @@
             }
         },
         "enchanting_table": {
-            "trigger": "minecraft:item_used_on_block",
+            "trigger": "item_used_on_block",
             "conditions": {
                 "player": [
                     {
@@ -337,7 +337,7 @@
                         "predicate": {
                             "block": {
                                 "blocks": [
-                                    "minecraft:enchanting_table"
+                                    "enchanting_table"
                                 ]
                             }
                         }
@@ -346,7 +346,7 @@
             }
         },
         "stonecutter": {
-            "trigger": "minecraft:item_used_on_block",
+            "trigger": "item_used_on_block",
             "conditions": {
                 "player": [
                     {
@@ -360,7 +360,7 @@
                         "predicate": {
                             "block": {
                                 "blocks": [
-                                    "minecraft:stonecutter"
+                                    "stonecutter"
                                 ]
                             }
                         }
@@ -369,7 +369,7 @@
             }
         },
         "brewing_stand": {
-            "trigger": "minecraft:item_used_on_block",
+            "trigger": "item_used_on_block",
             "conditions": {
                 "player": [
                     {
@@ -383,7 +383,7 @@
                         "predicate": {
                             "block": {
                                 "blocks": [
-                                    "minecraft:brewing_stand"
+                                    "brewing_stand"
                                 ]
                             }
                         }
@@ -392,7 +392,7 @@
             }
         },
         "loom": {
-            "trigger": "minecraft:item_used_on_block",
+            "trigger": "item_used_on_block",
             "conditions": {
                 "player": [
                     {
@@ -406,7 +406,7 @@
                         "predicate": {
                             "block": {
                                 "blocks": [
-                                    "minecraft:loom"
+                                    "loom"
                                 ]
                             }
                         }
@@ -415,7 +415,7 @@
             }
         },
         "beacon": {
-            "trigger": "minecraft:item_used_on_block",
+            "trigger": "item_used_on_block",
             "conditions": {
                 "player": [
                     {
@@ -429,7 +429,7 @@
                         "predicate": {
                             "block": {
                                 "blocks": [
-                                    "minecraft:beacon"
+                                    "beacon"
                                 ]
                             }
                         }
@@ -438,7 +438,7 @@
             }
         },
         "anvil": {
-            "trigger": "minecraft:item_used_on_block",
+            "trigger": "item_used_on_block",
             "conditions": {
                 "player": [
                     {
@@ -452,7 +452,7 @@
                         "predicate": {
                             "block": {
                                 "blocks": [
-                                    "minecraft:anvil"
+                                    "anvil"
                                 ]
                             }
                         }
@@ -461,7 +461,7 @@
             }
         },
         "chipped_anvil": {
-            "trigger": "minecraft:item_used_on_block",
+            "trigger": "item_used_on_block",
             "conditions": {
                 "player": [
                     {
@@ -475,7 +475,7 @@
                         "predicate": {
                             "block": {
                                 "blocks": [
-                                    "minecraft:chipped_anvil"
+                                    "chipped_anvil"
                                 ]
                             }
                         }
@@ -484,7 +484,7 @@
             }
         },
         "damaged_anvil": {
-            "trigger": "minecraft:item_used_on_block",
+            "trigger": "item_used_on_block",
             "conditions": {
                 "player": [
                     {
@@ -498,7 +498,7 @@
                         "predicate": {
                             "block": {
                                 "blocks": [
-                                    "minecraft:damaged_anvil"
+                                    "damaged_anvil"
                                 ]
                             }
                         }
@@ -507,7 +507,7 @@
             }
         },
         "shulker_box": {
-            "trigger": "minecraft:item_used_on_block",
+            "trigger": "item_used_on_block",
             "conditions": {
                 "player": [
                     {
@@ -521,7 +521,7 @@
                         "predicate": {
                             "block": {
                                 "blocks": [
-                                    "minecraft:shulker_box"
+                                    "shulker_box"
                                 ]
                             }
                         }
@@ -530,7 +530,7 @@
             }
         },
         "white_shulker_box": {
-            "trigger": "minecraft:item_used_on_block",
+            "trigger": "item_used_on_block",
             "conditions": {
                 "player": [
                     {
@@ -544,7 +544,7 @@
                         "predicate": {
                             "block": {
                                 "blocks": [
-                                    "minecraft:white_shulker_box"
+                                    "white_shulker_box"
                                 ]
                             }
                         }
@@ -553,7 +553,7 @@
             }
         },
         "orange_shulker_box": {
-            "trigger": "minecraft:item_used_on_block",
+            "trigger": "item_used_on_block",
             "conditions": {
                 "player": [
                     {
@@ -567,7 +567,7 @@
                         "predicate": {
                             "block": {
                                 "blocks": [
-                                    "minecraft:orange_shulker_box"
+                                    "orange_shulker_box"
                                 ]
                             }
                         }
@@ -576,7 +576,7 @@
             }
         },
         "magenta_shulker_box": {
-            "trigger": "minecraft:item_used_on_block",
+            "trigger": "item_used_on_block",
             "conditions": {
                 "player": [
                     {
@@ -590,7 +590,7 @@
                         "predicate": {
                             "block": {
                                 "blocks": [
-                                    "minecraft:magenta_shulker_box"
+                                    "magenta_shulker_box"
                                 ]
                             }
                         }
@@ -599,7 +599,7 @@
             }
         },
         "light_blue_shulker_box": {
-            "trigger": "minecraft:item_used_on_block",
+            "trigger": "item_used_on_block",
             "conditions": {
                 "player": [
                     {
@@ -613,7 +613,7 @@
                         "predicate": {
                             "block": {
                                 "blocks": [
-                                    "minecraft:light_blue_shulker_box"
+                                    "light_blue_shulker_box"
                                 ]
                             }
                         }
@@ -622,7 +622,7 @@
             }
         },
         "yellow_shulker_box": {
-            "trigger": "minecraft:item_used_on_block",
+            "trigger": "item_used_on_block",
             "conditions": {
                 "player": [
                     {
@@ -636,7 +636,7 @@
                         "predicate": {
                             "block": {
                                 "blocks": [
-                                    "minecraft:yellow_shulker_box"
+                                    "yellow_shulker_box"
                                 ]
                             }
                         }
@@ -645,7 +645,7 @@
             }
         },
         "lime_shulker_box": {
-            "trigger": "minecraft:item_used_on_block",
+            "trigger": "item_used_on_block",
             "conditions": {
                 "player": [
                     {
@@ -659,7 +659,7 @@
                         "predicate": {
                             "block": {
                                 "blocks": [
-                                    "minecraft:lime_shulker_box"
+                                    "lime_shulker_box"
                                 ]
                             }
                         }
@@ -668,7 +668,7 @@
             }
         },
         "pink_shulker_box": {
-            "trigger": "minecraft:item_used_on_block",
+            "trigger": "item_used_on_block",
             "conditions": {
                 "player": [
                     {
@@ -682,7 +682,7 @@
                         "predicate": {
                             "block": {
                                 "blocks": [
-                                    "minecraft:pink_shulker_box"
+                                    "pink_shulker_box"
                                 ]
                             }
                         }
@@ -691,7 +691,7 @@
             }
         },
         "gray_shulker_box": {
-            "trigger": "minecraft:item_used_on_block",
+            "trigger": "item_used_on_block",
             "conditions": {
                 "player": [
                     {
@@ -705,7 +705,7 @@
                         "predicate": {
                             "block": {
                                 "blocks": [
-                                    "minecraft:gray_shulker_box"
+                                    "gray_shulker_box"
                                 ]
                             }
                         }
@@ -714,7 +714,7 @@
             }
         },
         "light_gray_shulker_box": {
-            "trigger": "minecraft:item_used_on_block",
+            "trigger": "item_used_on_block",
             "conditions": {
                 "player": [
                     {
@@ -728,7 +728,7 @@
                         "predicate": {
                             "block": {
                                 "blocks": [
-                                    "minecraft:light_gray_shulker_box"
+                                    "light_gray_shulker_box"
                                 ]
                             }
                         }
@@ -737,7 +737,7 @@
             }
         },
         "cyan_shulker_box": {
-            "trigger": "minecraft:item_used_on_block",
+            "trigger": "item_used_on_block",
             "conditions": {
                 "player": [
                     {
@@ -751,7 +751,7 @@
                         "predicate": {
                             "block": {
                                 "blocks": [
-                                    "minecraft:cyan_shulker_box"
+                                    "cyan_shulker_box"
                                 ]
                             }
                         }
@@ -760,7 +760,7 @@
             }
         },
         "purple_shulker_box": {
-            "trigger": "minecraft:item_used_on_block",
+            "trigger": "item_used_on_block",
             "conditions": {
                 "player": [
                     {
@@ -774,7 +774,7 @@
                         "predicate": {
                             "block": {
                                 "blocks": [
-                                    "minecraft:purple_shulker_box"
+                                    "purple_shulker_box"
                                 ]
                             }
                         }
@@ -783,7 +783,7 @@
             }
         },
         "blue_shulker_box": {
-            "trigger": "minecraft:item_used_on_block",
+            "trigger": "item_used_on_block",
             "conditions": {
                 "player": [
                     {
@@ -797,7 +797,7 @@
                         "predicate": {
                             "block": {
                                 "blocks": [
-                                    "minecraft:blue_shulker_box"
+                                    "blue_shulker_box"
                                 ]
                             }
                         }
@@ -806,7 +806,7 @@
             }
         },
         "brown_shulker_box": {
-            "trigger": "minecraft:item_used_on_block",
+            "trigger": "item_used_on_block",
             "conditions": {
                 "player": [
                     {
@@ -820,7 +820,7 @@
                         "predicate": {
                             "block": {
                                 "blocks": [
-                                    "minecraft:brown_shulker_box"
+                                    "brown_shulker_box"
                                 ]
                             }
                         }
@@ -829,7 +829,7 @@
             }
         },
         "green_shulker_box": {
-            "trigger": "minecraft:item_used_on_block",
+            "trigger": "item_used_on_block",
             "conditions": {
                 "player": [
                     {
@@ -843,7 +843,7 @@
                         "predicate": {
                             "block": {
                                 "blocks": [
-                                    "minecraft:green_shulker_box"
+                                    "green_shulker_box"
                                 ]
                             }
                         }
@@ -852,7 +852,7 @@
             }
         },
         "red_shulker_box": {
-            "trigger": "minecraft:item_used_on_block",
+            "trigger": "item_used_on_block",
             "conditions": {
                 "player": [
                     {
@@ -866,7 +866,7 @@
                         "predicate": {
                             "block": {
                                 "blocks": [
-                                    "minecraft:red_shulker_box"
+                                    "red_shulker_box"
                                 ]
                             }
                         }
@@ -875,7 +875,7 @@
             }
         },
         "black_shulker_box": {
-            "trigger": "minecraft:item_used_on_block",
+            "trigger": "item_used_on_block",
             "conditions": {
                 "player": [
                     {
@@ -889,7 +889,7 @@
                         "predicate": {
                             "block": {
                                 "blocks": [
-                                    "minecraft:black_shulker_box"
+                                    "black_shulker_box"
                                 ]
                             }
                         }
@@ -898,7 +898,7 @@
             }
         },
         "chest_boat": {
-            "trigger": "minecraft:player_interacted_with_entity",
+            "trigger": "player_interacted_with_entity",
             "conditions": {
                 "entity": {
                     "type": "chest_boat"
@@ -906,7 +906,7 @@
             }
         },
         "chest_minecart": {
-            "trigger": "minecraft:player_interacted_with_entity",
+            "trigger": "player_interacted_with_entity",
             "conditions": {
                 "entity": {
                     "type": "chest_minecart"
@@ -914,7 +914,7 @@
             }
         },
         "hopper_minecart": {
-            "trigger": "minecraft:player_interacted_with_entity",
+            "trigger": "player_interacted_with_entity",
             "conditions": {
                 "entity": {
                     "type": "hopper_minecart"
