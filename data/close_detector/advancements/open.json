@@ -414,6 +414,29 @@
                 ]
             }
         },
+        "lectern": {
+            "trigger": "item_used_on_block",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "reference",
+                        "name": "close_detector:openable"
+                    }
+                ],
+                "location": [
+                    {
+                        "condition": "location_check",
+                        "predicate": {
+                            "block": {
+                                "blocks": [
+                                    "lectern"
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
         "beacon": {
             "trigger": "item_used_on_block",
             "conditions": {
@@ -930,6 +953,7 @@
             "barrel",
             "crafting_table",
             "cartography_table",
+            "smithing_table",
             "hopper",
             "dropper",
             "dispenser",
@@ -939,6 +963,10 @@
             "grindstone",
             "enchanting_table",
             "stonecutter",
+            "brewing_stand",
+            "loom",
+            "lectern",
+            "beacon",
             "anvil",
             "chipped_anvil",
             "damaged_anvil",
@@ -959,10 +987,6 @@
             "green_shulker_box",
             "red_shulker_box",
             "black_shulker_box",
-            "smithing_table",
-            "loom",
-            "brewing_stand",
-            "beacon",
             "chest_boat",
             "chest_minecart",
             "hopper_minecart"

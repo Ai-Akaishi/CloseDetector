@@ -31,6 +31,8 @@ execute if predicate open:brewing_stand run say 醸造台とじたよ！！
 
 execute if predicate open:loom run say 機織り機とじたよ！！
 
+execute if predicate open:lectern run say 書見台とじたよ！！
+
 execute if predicate open:beacon run say ビーコンとじたよ！！
 
 execute if predicate open:shulker_box run say シュルカーボックスとじたよ！！

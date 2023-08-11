@@ -31,6 +31,8 @@ execute if predicate open:brewing_stand run say 醸造台はロックされて�
 
 execute if predicate open:loom run say 機織り機はロックされてたよ！！
 
+execute if predicate open:lectern run say 書見台はロックされてたよ！！
+
 execute if predicate open:beacon run say ビーコンはロックされてたよ！！
 
 execute if predicate open:shulker_box run say シュルカーボックスはロックされてたよ！！
