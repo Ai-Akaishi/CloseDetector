@@ -7,6 +7,11 @@ Detect Opening/Closing Containers
 
 - 1.20.1
 
+以下のバージョンは右のReleasesからどうぞ。  
+For the following versions, please check Releases on the right.  
+
+- 1.19.x
+
 ## 一緒に入れてね / Dependencies
 
 Oh! My Dat!(<https://github.com/Ai-Akaishi/OhMyDat>)  
