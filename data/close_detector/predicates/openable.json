@@ -1,5 +1,5 @@
 {
-	"condition": "alternative",
+	"condition": "any_of",
 	"terms": [
 		{
 			"condition": "entity_properties",
@@ -20,12 +20,12 @@
 				"equipment": {
 					"mainhand": {
 						"items": [
-							"minecraft:air"
+							"air"
 						]
 					},
 					"offhand": {
 						"items": [
-							"minecraft:air"
+							"air"
 						]
 					}
 				}
