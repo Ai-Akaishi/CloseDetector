@@ -5,8 +5,7 @@ Detect Opening/Closing Containers
 
 ## 動作確認済みバージョン / Verified minecraft versions
 
-- 1.19
-- 1.19.2
+- 1.20.1
 
 ## 一緒に入れてね / Dependencies
 
@@ -68,9 +67,14 @@ The type of open container can be easily described with predicate.
 - open:furnace
 - open:blast_furnace
 - open:smoker
+- open:brewing_stand
 - open:grindstone
 - open:enchanting_table
 - open:stonecutter
+- open:beacon
+- open:lectern
+- open:loom
+- open:smithing_table
 - open:anvil(any type of anvils)
 - open:anvil/normal
 - open:anvil/chipped
